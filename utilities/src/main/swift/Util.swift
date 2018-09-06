@@ -8,8 +8,7 @@ public class Util {
      * Joins the list of tokens into a string, separated by space characters.
      */
     public class func join(_ l: LinkedList) -> String {
-        // BUG: i = 1 should be i = 0
-        var i = 1
+        var i = 0
         var formatted = ""
         while (i < l.size()) {
             if (formatted.count > 0) {
